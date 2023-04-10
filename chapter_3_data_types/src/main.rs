@@ -29,6 +29,7 @@ fn main() {
     // The Boolean Type
     let t = truncated;
     let f: bool = false;
+    println!("t={},f={}", t, f);
 
     // The Character Type, 4 bytes
     let c = 'z';
@@ -40,7 +41,7 @@ fn main() {
     // tuple
     let tup: (i32, f64, u8) = (500, 6.4, 1);
     let (x, y, z) = tup;
-    println!("Value = {z}");
+    println!("x = {x}, y = {y}, z  = {z}");
     println!("x = {}, y = {}", tup.0, tup.1);
     // array
     // let a = [1, 2, 3, 4, 5];
@@ -69,5 +70,5 @@ fn main() {
     // Accessing Array Elements
     let index_0 = a[0];
     let index_1 = a[1];
-    println!("a[0] = {}, a[1]= {}", index_0, index_1)    
+    println!("a[0] = {}, a[1]= {}", index_0, index_1)
 }
